@@ -1,0 +1,41 @@
+.email-body{
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    border: 1px solid #cfd2dc;
+    padding: 2rem;
+}
+
+.body-profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-btn{
+    border: none;
+    background-color: #e54065;
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1rem;
+}
+
+.body-btn:hover{
+    background-color: #ff0138;
+}
+
+.body-content{
+    display: flex;
+    gap: 2rem;
+}
+
+.body-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-body-content{
+    line-height: 2;
+}

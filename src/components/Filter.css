@@ -1,0 +1,18 @@
+.btn-container{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    width: 100vw;
+}
+
+.clicked-btn{
+    border: #cdd2dc;
+    background-color: #e1e4ea;
+    padding: 0.2rem 0.7rem;
+    border-radius: 1rem;
+}
+
+.btn{
+    border: none;
+    background: transparent;
+}

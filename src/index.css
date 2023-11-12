@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #636363;
+}
+
+p{
+  font-size: 12px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.main{
+  background-color: #f4f5f9;
+  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.all-container{
+  display: flex;
+  gap: 1rem;
+}
+
+button{
+  cursor: pointer;
+}
