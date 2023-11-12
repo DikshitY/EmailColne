@@ -48,8 +48,10 @@ function ShowBody({ email, body }) {
           <p>
             {formattedDate} <span>{time}pm</span>
           </p>
-          <p className="main-body-content">{result}</p>
         </div>
+      </div>
+      <div className="main-body-content">
+        <p>{result}</p>
       </div>
     </div>
   );

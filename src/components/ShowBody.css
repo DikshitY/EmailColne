@@ -5,7 +5,7 @@
     gap: 2rem;
     background-color: white;
     border: 1px solid #cfd2dc;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .body-profile{
@@ -27,7 +27,7 @@
 
 .body-content{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .body-title{
@@ -38,4 +38,10 @@
 
 .main-body-content{
     line-height: 2;
+}
+
+@media only screen and (max-width: 912px){
+    .email-body{
+        width: auto;
+    }
 }

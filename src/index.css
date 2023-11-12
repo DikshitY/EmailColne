@@ -30,3 +30,9 @@ p{
 button{
   cursor: pointer;
 }
+
+@media only screen and (max-width: 912px){
+  .all-container{
+    flex-direction: column-reverse;
+  }
+}
