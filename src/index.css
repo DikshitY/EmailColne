@@ -35,4 +35,7 @@ button{
   .all-container{
     flex-direction: column-reverse;
   }
+  .main{
+    padding: 2rem 0.7rem;
+  }
 }
